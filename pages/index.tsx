@@ -1,7 +1,6 @@
-import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import {NextPage} from 'next';
+import Head from 'next/head';
+import styles from '../styles/Home.module.css';
 
 function CallForAction() {
   return (
@@ -27,9 +26,7 @@ const Home: NextPage = () => {
           Kasumi "Violet" Yoshizawa Fine&nbsp;Art&nbsp;Print
         </p>
 
-        <div className={styles.image}>
-          <Image src='/kasumi-violet-yoshizawa-persona-5.jpg' width={1536/2} height={1499/2} quality={100} alt='Kasumi "Violet" Yoshizawa, Persona 5 Royal Fine Art Print framed' />
-        </div>
+        <img className={styles.image} src='/kasumi-violet-yoshizawa-persona-5.jpg' width={1536/2} alt='Kasumi "Violet" Yoshizawa, Persona 5 Royal Fine Art Print framed' />
 
         <p className={styles.description}>
           Limited edition of 5 Signed&nbsp;&&nbsp;Numbered.<br/>Price: € 150 – € 250
@@ -103,13 +100,13 @@ const Home: NextPage = () => {
         </div>
         <div className={styles.examples}>
           <div className={styles.examplePlacement}>
-            <Image src='/kasumi-violet-yoshizawa-persona-5-in-a-room-with-frame.jpg' width={1080/3} height={1620/3} quality={100} alt='Kasumi "Violet" Yoshizawa, Persona 5 Royal Fine Art Print in a room' />
+            <img src='/kasumi-violet-yoshizawa-persona-5-in-a-room-with-frame.jpg' alt='Kasumi "Violet" Yoshizawa, Persona 5 Royal Fine Art Print in a room' />
           </div>
           <div className={styles.examplePlacement}>
-            <Image src='/kasumi-violet-yoshizawa-persona-5-in-a-room.jpg' width={1080/3} height={1620/3} quality={100} alt='Kasumi "Violet" Yoshizawa, Persona 5 Royal Fine Art Print framed in a room' />
+            <img src='/kasumi-violet-yoshizawa-persona-5-in-a-room.jpg' alt='Kasumi "Violet" Yoshizawa, Persona 5 Royal Fine Art Print framed in a room' />
           </div>
           <div className={styles.examplePlacement}>
-            <Image src='/kasumi-violet-yoshizawa-persona-5-in-a-room-with-big-frame.jpg' width={1080/3} height={1620/3} quality={100} alt='Kasumi "Violet" Yoshizawa, Persona 5 Royal Fine Art Print framed in a room' />
+            <img src='/kasumi-violet-yoshizawa-persona-5-in-a-room-with-big-frame.jpg' alt='Kasumi "Violet" Yoshizawa, Persona 5 Royal Fine Art Print framed in a room' />
           </div>
         </div>
         <CallForAction/>
