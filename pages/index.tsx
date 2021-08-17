@@ -14,6 +14,15 @@ const Home: NextPage = () => {
       <Head>
         <title>Kasumi "Violet" Yoshizawa Fine Art Print</title>
         <meta name="description" content=">Kasumi Violet Yoshizawa fine art print, Persona 5 Royal" />
+        <meta property="og:title" content="Kasumi Violet Yoshizawa Fine Art Print."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://kasumi.azproduction.me/"/>
+        <meta property="og:image" content="https://kasumi.azproduction.me/kasumi-violet-yoshizawa-persona-5-1080.jpg"/>
+        <meta property="og:image:type" content="image/jpeg"/>
+        <meta property="og:image:width" content="1080"/>
+        <meta property="og:image:height" content="1080"/>
+        <meta property="og:image:alt" content="Kasumi Violet Yoshizawa"/>
+        <meta property="og:description" content="Kasumi, Persona 5 Royal. Limited edition of 5 Signed & Numbered."/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
