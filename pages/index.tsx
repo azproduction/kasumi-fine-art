@@ -38,7 +38,7 @@ const Home: NextPage = () => {
         <img className={styles.image} src='/kasumi-violet-yoshizawa-persona-5.jpg' width={1536/2} alt='Kasumi "Violet" Yoshizawa, Persona 5 Royal Fine Art Print framed' />
 
         <p className={styles.description}>
-          Limited edition of 5 Signed&nbsp;&&nbsp;Numbered.<br/>Price: € 150 – € 250
+          Limited edition of 5 Signed&nbsp;&&nbsp;Numbered.<br/>Price: € 250
         </p>
         <CallForAction/>
       </div>
@@ -50,7 +50,7 @@ const Home: NextPage = () => {
             This is my first fine art cosplay project. Those genres hardly come together and I am proud that I managed to blend them nicely and create this fine art piece.
           </p>
           <p>
-            Flower bed was hand made and styled by <a href="https://www.instagram.com/faelablanche/">Fae La Blanche</a>. It consists of 260 roses of two kind and 520 plans of 3 kind. It took us 8 hours to style the bed excluding all the logistics and photography time which took extra 10 hours.
+            Flower bed was hand made and styled by <a href="https://www.instagram.com/faelablanche/">Fae La Blanche</a>. It consists of 260 roses of two kinds and 520 plants of 3 kinds. It took us 8 hours to style the bed excluding all the logistics and photography time which took extra 10 hours.
           </p>
           <p>
             Kasumi's Costume was hand made by <a href="https://www.instagram.com/faelablanche/">Fae La Blanche</a> from fabric leftovers. Sword was 3D printed by <a href="https://www.instagram.com/kon__art/">Kon Art</a> and styled by <a href="https://www.instagram.com/faelablanche/">Fae La Blanche</a>.
@@ -70,7 +70,7 @@ const Home: NextPage = () => {
 
           <h3>Price</h3>
           <p>
-            First three prints – 150 Euro each. Last two – 250 Euro each. This issues has only 5 prints. Price excludes shipping.
+            Last two prints – 250 Euro each. This issues has only 5 prints. Price excludes shipping.
           </p>
         </div>
 
