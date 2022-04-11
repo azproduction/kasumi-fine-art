@@ -38,27 +38,33 @@ const Home: NextPage = () => {
         <img className={styles.image} src='/kasumi-violet-yoshizawa-persona-5.jpg' width={1536/2} alt='Kasumi "Violet" Yoshizawa, Persona 5 Royal Fine Art Print framed' />
 
         <p className={styles.description}>
-          Limited edition of 5 Signed&nbsp;&&nbsp;Numbered.<br/>Price: € 250
+          Limited edition of 5 Signed&nbsp;&&nbsp;Numbered.<br/>
+          Only two prints left! Get yours for € 250.
         </p>
         <CallForAction/>
       </div>
 
       <main className={styles.main}>
-        <div className={styles.section}>
-          <h2>About this Project</h2>
-          <p>
-            This is my first fine art cosplay project. Those genres hardly come together and I am proud that I managed to blend them nicely and create this fine art piece.
-          </p>
-          <p>
-            Flower bed was hand made and styled by <a href="https://www.instagram.com/faelablanche/">Fae La Blanche</a>. It consists of 260 roses of two kinds and 520 plants of 3 kinds. It took us 8 hours to style the bed excluding all the logistics and photography time which took extra 10 hours.
-          </p>
-          <p>
-            Kasumi's Costume was hand made by <a href="https://www.instagram.com/faelablanche/">Fae La Blanche</a> from fabric leftovers. Sword was 3D printed by <a href="https://www.instagram.com/kon__art/">Kon Art</a> and styled by <a href="https://www.instagram.com/faelablanche/">Fae La Blanche</a>.
-          </p>
-          <p>
-            This setting was inspired by Alexia Sinclair works and idea for the composition comes from Kasumi Persona 5 Royal figurine and her hero artwork. Thanks to top down shot we were able to show character's grace and artistic side while keeping ideal gymnastic ribbon flow and all other components nicely placed.
-          </p>
-          <p>Watch <a href="https://www.instagram.com/reel/CSPWn1ojq1G/">behind the scenes and making of</a> on Instagram Reels.</p>
+        <div className={styles.aboutThisProjectGrid}>
+          <div className={styles.section}>
+            <h2>About this Project</h2>
+            <p>
+              This is my first fine art cosplay project. Those genres hardly come together and I am proud that I managed to blend them nicely and create this fine art piece.
+            </p>
+            <p>
+              Flower bed was hand made and styled by <a href="https://www.instagram.com/faelablanche/">Fae La Blanche</a>. It consists of 260 roses of two kinds and 520 plants of 3 kinds. It took us 8 hours to style the bed excluding all the logistics and photography time which took extra 10 hours.
+            </p>
+            <p>
+              Kasumi's Costume was hand made by <a href="https://www.instagram.com/faelablanche/">Fae La Blanche</a> from fabric leftovers. Sword was 3D printed by <a href="https://www.instagram.com/kon__art/">Kon Art</a> and styled by <a href="https://www.instagram.com/faelablanche/">Fae La Blanche</a>.
+            </p>
+            <p>
+              This setting was inspired by Alexia Sinclair works and idea for the composition comes from Kasumi Persona 5 Royal figurine and her hero artwork. Thanks to top down shot we were able to show character's grace and artistic side while keeping ideal gymnastic ribbon flow and all other components nicely placed.
+            </p>
+            <p>Watch <a href="https://www.instagram.com/reel/CSPWn1ojq1G/">behind the scenes and making of</a> on Instagram Reels.</p>
+          </div>
+          <div className={styles.section}>
+            <a href="https://www.instagram.com/reel/CSPWn1ojq1G/"><img className={styles.reel} src='/kasumi-violet-yoshizawa-persona-5-reel-cover.jpg' alt='behind the scenes and making of'/></a>
+          </div>
         </div>
 
         <div className={styles.section}>

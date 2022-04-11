@@ -63,6 +63,11 @@
   grid-gap: 2rem;
 }
 
+.aboutThisProjectGrid {
+  composes: grid;
+  grid-template-columns: 3fr 1.1fr;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
@@ -107,6 +112,10 @@
   composes: card;
 }
 
+.section {
+  composes: card;
+}
+
 .section p {
   margin-bottom: 1rem;
 }
@@ -119,6 +128,10 @@
 .card p {
   font-size: 1rem;
   line-height: 1.5;
+}
+
+.reel {
+  width: 100%;
 }
 
 
