@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css';
 
 function CallForAction() {
   return (
-      <a href="mailto:cosp@azproduction.me?subject=Kasumi%20print%20order&body=Hi%20A.Z.Production%2C%0D%0A%0D%0AI%20would%20like%20to%20buy%20a%20print." className={styles.callForAction}>Buy a Limited Edition Print</a>
+      <a href="mailto:azproductioncosp@gmail.com?subject=Kasumi%20print%20order&body=Hi%20A.Z.Production%2C%0D%0A%0D%0AI%20would%20like%20to%20buy%20a%20print." className={styles.callForAction}>Buy a Limited Edition Print</a>
   );
 }
 
@@ -132,7 +132,7 @@ const Home: NextPage = () => {
           &copy;&nbsp;2021 <a href="https://instagram.com/azproductioncosp">A.Z.Production Cosplay Photography</a>, Mikhail Davydov
         </p>
         <p>
-          Feel free to contact me if you have any questions <a href="mailto:cosp@azproduction.me">cosp@azproduction.me</a>
+          Feel free to contact me if you have any questions <a href="mailto:azproductioncosp@gmail.com">azproductioncosp@gmail.com</a>
         </p>
       </footer>
     </div>
